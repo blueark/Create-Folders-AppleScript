@@ -8,10 +8,14 @@ easily modified to suit other uses.
 Our folder structure contained a parent folder with the order number and customer name. Inside this, we
 had three subfolders: Preflight Reports, Source Files, and PRINT. Imagine creating that 200 times a day!
 
+![Screenshot of the standard folder structure](imgs/StandardFolderStructure.png)
+
 To further complicate matters, some orders contained sub-orders. The parent folder was named the same as
 above, but this time, it contained a separate subfolder for each suborder. These had the same name as the
 order number, except that all but the first one had a two-digit suffix. The three subfolders in the previous
 example were to be added to each subfolder. Now *that* could get very time-consuming!
+
+![Screenshot of a multi-part order folder structure](imgs/MultiFolderStructure.png)
 
 ## Activate the Script menu
 
